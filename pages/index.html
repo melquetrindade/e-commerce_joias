@@ -12,14 +12,72 @@
 </head>
 <body>
     <header>
-        <div class="container" id="nav-container">
-            <nav class="navbar navbar-expand-lg fixed-top">
-                <a href="#" class="navbar-brand">
-                    <img src="logo2.jpg" alt="teste"> Joalheria
-                </a>
-            </nav>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary divNavBar">
+            <div class="container-fluid containerNav">
+              <div class="navbar-brand">
+                <div class="containerLogo">
+                    <img src="logo2.jpg" alt="teste">
+                    <p>Joalheria</p>
+                </div>
+              </div>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
 
-        </div>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Detalhes</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Carrinho</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Pagamentos</a>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Categorias
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Alianças</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Aneis</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Brincos</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Colares</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Pulseiras</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="ex: colares" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+              </div>
+            </div>
+          </nav>
     </header>
+    <main class="main">
+        <h1>Conteúdo Principal</h1>
+    </main>
 </body>
 </html>
+
+<!--
+
+
+        <main class="main">
+        <h1>Página inicial</h1>
+        
+    </main>
+
+-->
