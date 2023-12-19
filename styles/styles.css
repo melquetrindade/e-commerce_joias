@@ -22,4 +22,39 @@
 
 .main{
     min-height: 90.6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#container-main > h1{
+    margin-bottom: 20px;
+}
+
+.container-produtos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 80vw;
+}
+
+.container-card{
+    margin-bottom: 15px;
+}
+
+.container-card > img{
+    height: 10rem;
+}
+
+.container-details > h5{
+    font-size: 14px;
+}
+
+.container-details > p{
+    font-size: 12px;
+    margin: 0px;
+}
+
+.button-comprar{
+    margin-top: 20px;
 }
