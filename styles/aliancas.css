@@ -1,26 +1,4 @@
-.containerLogo{
-    display: flex;
-}
-
-.containerLogo > p{
-    font-size: 16px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding-top: 16px;
-}
-
-.containerLogo > img {
-    width: 55px;
-    border-radius: 10px;
-    margin-right: 10px;
-}
-
-.containerNav{
-    background-color: rgb(241, 241, 202);
-    margin-top: -7px;
-    margin-bottom: -7px;
-}
-
-.main{
+#main{
     min-height: 90.6vh;
     display: flex;
     align-items: center;
@@ -28,12 +6,6 @@
     text-align: center;
 }
 
-.main > iframe{
-    width: 100vw;
-    min-height: 90.6vh;
-}
-
-/*
 #container-main > h1{
     margin-bottom: 20px;
     color: rgb(239, 107, 107);
@@ -82,4 +54,4 @@
 .desconto{
     font-weight: 700;
     color: rgb(247, 60, 60);
-}*/
+}
