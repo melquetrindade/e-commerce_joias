@@ -27,7 +27,27 @@
     height: 100%;
 }
 
+.description{
+    transform: translateY(9rem);
+}
+
 /* ---- cards ----*/
+.titulo{
+    color: rgb(239, 107, 107);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(253, 253, 242);
+    width: 65.5vw;
+    border-radius: 10px;
+}
+
+.titulo2{
+    color: rgb(239, 107, 107);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(253, 253, 242);
+    width: 65.5vw;
+    border-radius: 10px;
+    margin-top: 5rem;
+}
 
 .container-produtos{
     display: grid;
