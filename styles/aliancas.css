@@ -6,6 +6,21 @@
     text-align: center;
 }
 
+.content{
+    display: flex;
+    justify-content: center;
+}
+
+.container-filtros{
+    display: block;
+    margin-right: 5%;
+    width: 15vw;
+    max-height: 23.5rem;
+    background-color: rgb(246, 246, 246);
+    padding: 15px;
+    border-radius: 10px;
+}
+
 #container-main > h1{
     margin-bottom: 20px;
     color: rgb(239, 107, 107);
@@ -15,7 +30,7 @@
 .container-produtos{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    width: 80vw;
+    width: 70vw;
 }
 
 .container-card{
