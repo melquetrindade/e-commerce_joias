@@ -8,7 +8,6 @@
 
 .container-detalhes{
     border-radius: 10px;
-    background-color: aliceblue;
 }
 
 .container-detalhes > h1{
@@ -74,4 +73,39 @@
     font-size: 0.8rem;
     padding: 2px;
     cursor: pointer;
+}
+
+.container-precos{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-top: 1rem;
+}
+
+.container-precos > div{
+    border-top: 1px solid rgb(255, 214, 131);
+    border-bottom: 1px solid rgb(255, 214, 131);
+    padding: 15px 0px 5px 0px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-info{
+    text-align: start;
+}
+
+.container-info > h1{
+    font-size: 1.3rem;
+}
+
+.container-especificacoes > h1{
+    font-size: 1.3rem;
+}
+
+.container-linhas > h1{
+    border-top: 1px solid rgb(255, 214, 131);
+    padding: 7px 0px 0px 0px;
+    font-size: 12px;
 }

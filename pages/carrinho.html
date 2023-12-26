@@ -14,7 +14,7 @@
 </head>
 <body>
     <main id="main">
-      <div>
+      <div style="margin-top: 2rem; margin-bottom: 2rem;">
         <table class="table caption-top table-striped" style="width: 70vw;">
           <caption>
             <span class="material-symbols-outlined">shopping_cart</span> Carrinho de Compras
@@ -29,6 +29,7 @@
             </tr>
           </thead>
           <tbody>
+
             <tr>
               <th scope="row" class="celula">
                 <img src="https://virtualjoias.com/media/catalog/product/cache/2606ad8a2e237282be5631f3e1487bf0/v/j/vj9762thumb.jpg?quality=100" class="img" style="width: 4rem;" alt="...">
@@ -55,6 +56,7 @@
                   <span class="material-symbols-outlined" style="margin-top: 30%; color: red; cursor: pointer;">close</span>
               </td>
             </tr>
+
             <tr>
               <th scope="row" class="celula">
                 <img src="https://virtualjoias.com/media/catalog/product/cache/2606ad8a2e237282be5631f3e1487bf0/v/j/vj5953thumb.jpg?quality=100" class="img" style="width: 4rem;" alt="...">
@@ -81,6 +83,7 @@
                 <span class="material-symbols-outlined" style="margin-top: 30%; color: red; cursor: pointer;">close</span>
               </td>
             </tr>
+
             <tr>
               <th scope="row" class="celula">
                 <img src="https://virtualjoias.com/media/catalog/product/cache/2606ad8a2e237282be5631f3e1487bf0/a/n/anel-formatura-prata-aro-duplo-redondo-azul-safira.jpg?quality=100" class="img" style="width: 4rem;" alt="...">
@@ -107,6 +110,7 @@
                 <span class="material-symbols-outlined" style="margin-top: 30%; color: red; cursor: pointer;">close</span>
               </td>
             </tr>
+
             <tr>
               <th scope="row" class="celula">
                 <img src="https://virtualjoias.com/media/catalog/product/cache/2606ad8a2e237282be5631f3e1487bf0/c/o/colaramorinfinitoouro18kthumb_2.jpg?quality=100" class="img" style="width: 4rem;" alt="...">
@@ -133,8 +137,10 @@
                 <span class="material-symbols-outlined" style="margin-top: 30%; color: red; cursor: pointer;">close</span>
               </td>
             </tr>
+
           </tbody>
         </table>
+
         <div class="container-frete">
           <form class="row g-3">
             <div class="col-auto">
@@ -149,6 +155,22 @@
             SubTotal: <p style="margin-left: 10px; color: rgb(10, 206, 10); font-weight: 600;">R$ 2297.56</p>
           </div>
         </div>
+        
+        <div style="text-align: start;">
+          <hr>
+          <p>Se possuir cupom de desconto utilize aqui</p>
+          <form class="row g-3">
+            <div class="col-auto">
+              <label for="inputCupom" class="visually-hidden">CEP</label>
+              <input type="number" class="form-control" id="inputCupom">
+            </div>
+            <div class="col-auto">
+              <button type="submit" class="btn btn-primary mb-3">Aplicar</button>
+            </div>
+          </form>
+          <hr>
+        </div>
+
         <div class="container-submit">
           <div class="col-auto">
             <button type="submit" class="btn btn-primary mb-3" style="background-color: red; border: none;">Escolher mais Produtos</button>
@@ -157,6 +179,7 @@
             <button type="submit" class="btn btn-primary mb-3" style="background-color: rgb(10, 206, 10); border: none;">Confirmar Compra</button>
           </div>
         </div>
+        
       </div>
     </div>
     </main>
